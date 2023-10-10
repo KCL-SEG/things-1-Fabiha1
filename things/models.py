@@ -12,5 +12,3 @@ class Thing(Model):
             MaxValueValidator(100, message="Quantity cannot be more than 100")
         ]
     )
-
-        
